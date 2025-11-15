@@ -1,241 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flushing A – Clio Road</title>
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f8f8f8;
-      color: #333;
-      scroll-behavior: smooth;
-    }
-    header {
-      background-color: #ff5a5f;
-      color: white;
-      padding: 20px;
-      text-align: center;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
-    header p {
-      margin: 5px 0 0;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      background-color: #ff787d;
-      flex-wrap: wrap;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      padding: 15px 25px;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-    nav a:hover {
-      background-color: #ff5a5f;
-    }
-    .hero {
-      background: url('https://via.placeholder.com/1200x400?text=Flushing+A+Food') center/cover no-repeat;
-      height: 400px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      font-size: 2em;
-      text-shadow: 2px 2px 5px #000;
-    }
-    .section {
-      padding: 40px 20px;
-      max-width: 1200px;
-      margin: auto;
-    }
-    h2 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    .menu-filters {
-      text-align: center;
-      margin-bottom: 30px;
-    }
-    .menu-filters button {
-      background: #ff5a5f;
-      color: white;
-      border: none;
-      padding: 10px 15px;
-      margin: 5px;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: 0.3s;
-    }
-    .menu-filters button:hover,
-    .menu-filters button.active {
-      background: #ff4045;
-    }
-    .menu {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
-      transition: all 0.3s ease;
-    }
-    .menu-item {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-      width: 250px;
-      padding: 15px;
-      text-align: center;
-      transition: transform 0.3s;
-    }
-    .menu-item img {
-      width: 100%;
-      border-radius: 10px;
-    }
-    .menu-item:hover {
-      transform: translateY(-5px);
-    }
-    .order-btn {
-      background: #ff5a5f;
-      color: white;
-      border: none;
-      padding: 10px 15px;
-      margin-top: 10px;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: 0.3s;
-    }
-    .order-btn:hover {
-      background: #ff4045;
-    }
-    iframe {
-      border: 0;
-      width: 100%;
-      height: 300px;
-      border-radius: 10px;
-      margin-top: 20px;
-    }
-    footer {
-      background: #ff5a5f;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-    footer a {
-      color: white;
-      text-decoration: none;
-      margin: 0 10px;
-    }
-    @media (max-width: 768px) {
-      .menu-item {
-        width: 100%;
-      }
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Ungame – Kid Friendly Rules</title>
+<style>
+  body{
+    margin:0;
+    font-family: 'Comic Sans MS', 'Trebuchet MS', sans-serif;
+    background:linear-gradient(135deg, #ffe8c7, #fff4dc, #ffe8da);
+    color:#4a2a00;
+  }
+  header{
+    text-align:center;
+    padding:30px 20px;
+    background:#ffcc66;
+    border-bottom:6px solid #ff9933;
+  }
+  header h1{
+    margin:0;
+    font-size:2.5rem;
+    color:#b22222;
+    text-shadow:2px 2px #fff;
+  }
+  header p{
+    margin:6px 0 0;
+    font-size:1.1rem;
+  }
+  .wrapper{
+    max-width:900px;
+    margin:0 auto;
+    padding:20px;
+  }
+  .card{
+    background:#ffffffaa;
+    border:4px solid #ff9933;
+    border-radius:20px;
+    padding:20px;
+    margin:20px 0;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+  }
+  .card h2{
+    margin-top:0;
+    color:#b22222;
+    font-size:1.8rem;
+    text-shadow:1px 1px #fff;
+  }
+  .card ul{
+    list-style-type:'⭐ ';
+    padding-left:20px;
+    font-size:1.2rem;
+  }
+  .section-title{
+    text-align:center;
+    font-size:2rem;
+    color:#ff6600;
+    margin-top:40px;
+    text-shadow:1px 1px #fff;
+  }
+  .footer{
+    text-align:center;
+    padding:20px;
+    font-size:1rem;
+    color:#663300;
+  }
+</style>
 </head>
 <body>
 
 <header>
-  <h1>Flushing A – Clio Road</h1>
-  <p>It’s Not Fast Food, It’s Good Food Fast</p>
+  <h1>🎉 The Ungame – Fun Rules! 🎉</h1>
+  <p>Easy, silly, and friendly for all ages.</p>
 </header>
 
-<nav>
-  <a href="#home">Home</a>
-  <a href="#menu">Menu</a>
-  <a href="#about">About</a>
-  <a href="#contact">Contact</a>
-</nav>
+<div class="wrapper">
 
-<div class="hero" id="home">
-  Welcome to Flushing A!
+  <h2 class="section-title">🤔 How Do We Play?</h2>
+
+  <div class="card">
+    <h2>1. Pick How Long You Want to Play ⏱️</h2>
+    <ul>
+      <li>Most people play for about 45 minutes.</li>
+      <li>But you're the boss, play as long as you want!</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>2. Sit Together Like a Cozy Crew 🧸</h2>
+    <ul>
+      <li>Everyone sits close so you can hear each other.</li>
+      <li>2 to 8 players is perfect!</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>3. No Talking Over Each Other 🤐</h2>
+    <ul>
+      <li>When it's your turn, you get to talk!</li>
+      <li>Everyone else listens like a superhero listener. 🦸‍♂️👂</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>4. Choose Your Deck! 🎴</h2>
+    <ul>
+      <li><b>Deck #1:</b> Fun, silly, light topics.</li>
+      <li><b>Deck #2:</b> More serious stuff. Save this for later!</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>5. Draw a Card... GO! 🎉</h2>
+    <ul>
+      <li>If it's a <b>TOPIC</b> card, read it out loud and share your answer in 2–3 sentences.</li>
+      <li><b>No one else can comment yet!</b></li>
+      <li>If it's a <b>QUESTION/COMMENT</b> card, you can ask ONE person a question or make a comment.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>6. Pass the Turn to the Left 🔄</h2>
+    <ul>
+      <li>Keep going until time’s up!</li>
+      <li>Chat more afterward if you want.</li>
+    </ul>
+  </div>
+
+  <h2 class="section-title">✨ Why It’s Awesome!</h2>
+
+  <div class="card">
+    <ul>
+      <li>Everyone gets a turn to talk 🎤</li>
+      <li>No interrupting 🚫🙊</li>
+      <li>You learn cool things about each other 🤯</li>
+      <li>It teaches listening like a pro 🧠👂</li>
+      <li>No winning or losing — just fun! 🥳</li>
+    </ul>
+  </div>
+
+  <h2 class="section-title">👨‍👩‍👧 Who Can Play?</h2>
+
+  <div class="card">
+    <ul>
+      <li>Families</li>
+      <li>Friends</li>
+      <li>Kids at school</li>
+      <li>Church groups</li>
+      <li>Counselors & teachers</li>
+      <li>Birthday parties 🎂</li>
+      <li>Anyone who likes to talk and listen!</li>
+    </ul>
+  </div>
+
+  <div class="footer">Made with 🌟 for curious kids who love to play and share!</div>
+
 </div>
-
-<section class="section" id="menu">
-  <h2>Our Menu</h2>
-  <div class="menu-filters">
-    <button class="filter-btn active" data-category="all">All</button>
-    <button class="filter-btn" data-category="lunch">Lunch</button>
-    <button class="filter-btn" data-category="dinner">Dinner</button>
-    <button class="filter-btn" data-category="drinks">Drinks</button>
-    <button class="filter-btn" data-category="specials">Specials</button>
-  </div>
-  <div class="menu" id="menu-items">
-    <div class="menu-item" data-category="lunch">
-      <img src="https://via.placeholder.com/250?text=Burger" alt="Burger">
-      <h3>Classic Burger</h3>
-      <p>$6.99</p>
-      <button class="order-btn">Order Online</button>
-    </div>
-    <div class="menu-item" data-category="dinner">
-      <img src="https://via.placeholder.com/250?text=Steak" alt="Steak">
-      <h3>Grilled Steak</h3>
-      <p>$12.99</p>
-      <button class="order-btn">Order Online</button>
-    </div>
-    <div class="menu-item" data-category="drinks">
-      <img src="https://via.placeholder.com/250?text=Coffee" alt="Coffee">
-      <h3>Fresh Coffee</h3>
-      <p>$2.99</p>
-      <button class="order-btn">Order Online</button>
-    </div>
-    <div class="menu-item" data-category="specials">
-      <img src="https://via.placeholder.com/250?text=Special" alt="Special">
-      <h3>Daily Special</h3>
-      <p>$9.99</p>
-      <button class="order-btn">Order Online</button>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="about">
-  <h2>About Flushing A</h2>
-  <p>Flushing A has been serving delicious, fast, and fresh food to the Flushing community for years. We pride ourselves on quality, taste, and a friendly atmosphere.</p>
-  <p><strong>Address:</strong> 200 S. Cherry St, Flushing, MI 48433</p>
-  <p><strong>Hours:</strong> Mon-Sun: 10am - 9pm</p>
-  <iframe src="https://www.google.com/maps?q=200+S+Cherry+St,+Flushing,+MI+48433&output=embed"></iframe>
-</section>
-
-<section class="section" id="contact">
-  <h2>Contact Us</h2>
-  <p><strong>Phone:</strong> (555) 123-4567</p>
-  <p><strong>Email:</strong> info@flushinga.com</p>
-  <p><a href="https://www.facebook.com/FlushingA" target="_blank">Facebook</a></p>
-</section>
-
-<footer>
-  <p>&copy; 2025 Flushing A – Clio Road | <a href="#home">Home</a> | <a href="#menu">Menu</a> | <a href="#about">About</a> | <a href="#contact">Contact</a></p>
-</footer>
-
-<script>
-  const filterBtns = document.querySelectorAll('.filter-btn');
-  const menuItems = document.querySelectorAll('.menu-item');
-
-  filterBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      filterBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      const category = btn.dataset.category;
-      menuItems.forEach(item => {
-        if (category === 'all' || item.dataset.category === category) {
-          item.style.display = 'block';
-        } else {
-          item.style.display = 'none';
-        }
-      });
-    });
-  });
-</script>
 
 </body>
 </html>
