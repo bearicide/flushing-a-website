@@ -1,35 +1,102 @@
-# The Flushing A Diner Website
 
-Welcome to the **Flushing A Diner** site package! This folder contains everything you need to run and edit the diner website.
+🎉 The Ungame – Fun Rules!
 
-## Folder Structure
-```
-flushing_a_site/
- ├── index.html        # Main merged site (ready to launch)
- ├── style.css         # Placeholder for extra CSS (optional)
- ├── script.js         # Placeholder for extra JavaScript (optional)
- ├── /images/          # Place your burger, shake, and event photos here
- └── /extras/          # Store weekly plans, PDFs, or other fun files
-```
+A gentle chaos-free way to talk, listen, and not roast each other.
 
-## How to Run
-1. Install [Visual Studio Code](https://code.visualstudio.com/Download).
-2. Install the [Live Server Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
-3. Open this folder in VS Code (`File > Open Folder`).
-4. Right-click `index.html` and select **Open with Live Server** OR click **Go Live** at the bottom-right corner of VS Code.
-5. Your browser will open the diner website at `http://127.0.0.1:5500/` (or similar).
-
-## How to Edit
-- Open `index.html` to edit the structure, content, and text.
-- Use `style.css` if you want to add more custom styles.
-- Add JavaScript features in `script.js` if needed.
-- Drop photos into `/images/` and link them in `index.html`.
-- Add extra pages or docs in `/extras/` and link to them from `index.html`.
-
-## Notes
-- The default site is mobile-friendly and styled with retro diner vibes (red & cream colors).
-- The menu supports **category filtering** (burgers, hot dogs, shakes, etc.).
-- Specials, About, Events, and Contact sections are pre-built and ready to customize.
 
 ---
-Enjoy your digital diner! 🍔🥤🎶
+
+🤔 How Do We Play?
+
+⭐ 1. Pick Your Play Time
+
+Most people do about 45 minutes,
+
+But honestly? Play as long as your brain allows.
+
+
+⭐ 2. Sit Together Like a Cozy Crew
+
+Sit close enough to hear humans speak.
+
+2–8 players works great.
+
+
+⭐ 3. The No-Interrupting Zone
+
+When it's your turn, you talk.
+
+When it's not, you zip it and listen like a superhero with giant ears.
+
+
+⭐ 4. Choose Your Deck 🎴
+
+Deck #1: fun, silly, easy topics.
+
+Deck #2: more serious feelings stuff (save for later unless you’re built different).
+
+
+⭐ 5. Draw a Card… GO!
+
+TOPIC card: read it aloud and answer in 2–3 sentences.
+Nobody else can comment. No peanut gallery.
+
+QUESTION/COMMENT card:
+
+Ask one player a question or
+
+Make a comment on literally anything.
+
+
+
+⭐ 6. Pass to the Left 🔄
+
+Keep going until time’s up.
+
+At the end, chat freely if everyone wants.
+
+
+
+---
+
+✨ Why It's Awesome
+
+Everyone gets a turn to talk 🎤
+
+Zero interrupting allowed 🚫🙊
+
+You learn wacky and wholesome things about each other 🤯
+
+It builds listening skills like a baby Jedi 🧠
+
+No winners… no losers… just vibes 🥳
+
+
+
+---
+
+👨‍👩‍👧 Who Can Play?
+
+Families
+
+Friends
+
+Classrooms
+
+Youth groups
+
+Church groups
+
+Counselors
+
+Birthday parties 🎂
+
+Literally anyone who enjoys talking and not being judged
+
+
+
+---
+
+🌟 Made for Curious Kids
+
+The Ungame isn’t about winning — it’s about laughing, listening, sharing, and occasionally discovering your friend’s weirdest secret talent.
